@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F8F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.post-card {
+  width: 350px;
+  background-color: #FFE4E1; 
+  border: 10px solid #4B0082; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
+  padding:10px;
+}
+
+
+.post-image {
+  width: 100%;
+  margin : 0 auto;
+  max-height: 300px; 
+  margin: 10px 0;
+  display: block;
+}
+
+
+  
